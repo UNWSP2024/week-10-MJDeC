@@ -16,3 +16,4 @@ student2=Student()
 student2.name="Janet"
 student2.marks=30
 did_pass=student2.check_pass_fail()
+print(did_pass)
