@@ -13,16 +13,16 @@
 # The get_speed method should return the current speed.
 # Next, design a program that creates a Car object then calls the accelerate method five times.  After each call to the accelerate method, get the current speed of the car and display it.  The call the brake method.  After each call to the brake method, get the current speed of the car and display it.
 class Car:
-  def __init__(self, make, model, year):
+  def __init__(self, make, year_model, speed):
     self.__make=make
-    self.__model=model
+    self.__year_model=year_model
     self.__speed=speed
 
   def set_make(self,make):
     self.__make=make
 
   def set_model(self,model):
-    self.__model=model
+    self.__year_model=year_model
 
   def set_speed(self,speed):
     self.__speed=speed
@@ -31,7 +31,7 @@ class Car:
     return self.__make
 
   def get_model(self):
-    return self.__model
+    return self.__year_model
 
   def get_speed(self):
     return self.__speed
