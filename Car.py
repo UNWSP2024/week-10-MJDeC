@@ -40,14 +40,14 @@ class Car:
     speed=0
     for accelerate in range(5):
       speed=speed+5
-      print(speed)
+      print(speed,'mph')
   accelerate()
-
-  def accelerate():
-  speed=0
-  for accelerate in range(5):
-    speed=speed+5
-    print(speed)
-  accelerate()
+  
+  def brake():
+    speed=25
+    for brake in range(5):
+      speed=speed-5
+      print(speed,'mph')
+  brake()
 
 car_data=Car("McLaren F1 LM","1996",0) 
