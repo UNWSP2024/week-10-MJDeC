@@ -42,8 +42,9 @@ class Car:
   def brake():
     brake=brake-5
 
+car_data=Car("McLaren F1 LM","1996",0) 
 
-accel=Car()
+accel=Car(self,make,year_model,speed)
 accel1=accel.accelerate()
 print(accel1)
 accel2=accel.accelerate()
@@ -54,5 +55,3 @@ accel4=accel.accelerate()
 print(accel4)
 accel5=accel.accelerate()
 print(accel5)
-
-car_data=Car("McLaren F1 LM","1996",0) 
