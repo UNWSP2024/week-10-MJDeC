@@ -14,18 +14,18 @@
 # Next, design a program that creates a Car object then calls the accelerate method five times.  After each call to the accelerate method, get the current speed of the car and display it.  The call the brake method.  After each call to the brake method, get the current speed of the car and display it.
 class Car:
   def __init__(self, make, year_model, speed):
-    self.__make=make
-    self.__year_model=year_model
-    self.__speed=speed
+    self.__make=__make
+    self.__year_model=__year_model
+    self.__speed=__speed
+    
+  def set_make(self,__make):
+    self.__make=__make
 
-  def set_make(self,make):
-    self.__make=make
+  def set_model(self,__year_model):
+    self.__year_model=__year_model
 
-  def set_model(self,model):
-    self.__year_model=year_model
-
-  def set_speed(self,speed):
-    self.__speed=speed
+  def set_speed(self,__speed):
+    self.__speed=__speed
 
   def get_make(self):
     return self.__make
@@ -36,4 +36,4 @@ class Car:
   def get_speed(self):
     return self.__speed
 
-print(Car)
+car_data=Car("McLaren F1 LM","1996",0)
