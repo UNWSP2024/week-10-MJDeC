@@ -40,6 +40,13 @@ class Car:
     speed=0
     for accelerate in range(5):
       speed=speed+5
+      print(speed)
+  accelerate()
+
+  def accelerate():
+  speed=0
+  for accelerate in range(5):
+    speed=speed+5
     print(speed)
   accelerate()
 
