@@ -18,23 +18,23 @@ class Car:
     self.__year_model=year_model
     self.__speed=speed
     
-  def set_make(self,__make):
-    self.__make=__make
+  def set_make(self,make):
+    self.__make=make
   
-  def set_model(self,__year_model):
-    self.__year_model=__year_model
+  def set_model(self,year_model):
+    self.__year_model=year_model
   
-  def set_speed(self,__speed):
-    self.__speed=__speed
+  def set_speed(self,speed):
+    self.__speed=speed
   
   def get_make(self):
-    return self.__make
+    return self.make
    
   def get_model(self):
-    return self.__year_model
+    return self.year_model
   
   def get_speed(self):
-    return self.__speed
+    return self.speed
    
   def accelerate():
     speed=speed+5
