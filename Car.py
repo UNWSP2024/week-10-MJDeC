@@ -37,17 +37,22 @@ class Car:
     return self.__speed
    
   def accelerate():
-    speed=0
-    for accelerate in range(5):
-      speed=speed+5
-      print(speed,'mph')
-  accelerate()
-  
+    speed=speed+5
+    
   def brake():
-    speed=25
-    for brake in range(5):
-      speed=speed-5
-      print(speed,'mph')
-  brake()
+    brake=brake-5
+
+
+accel=Car()
+accel1=accel.accelerate()
+print(accel1)
+accel2=accel.accelerate()
+print(accel2)
+accel3=accel.accelerate()
+print(accel3)
+accel4=accel.accelerate()
+print(accel4)
+accel5=accel.accelerate()
+print(accel5)
 
 car_data=Car("McLaren F1 LM","1996",0) 
