@@ -36,10 +36,10 @@ class Car:
   def get_speed(self):
     return self.speed
    
-  def accelerate(self,speed):
+  def accelerate(self):
     self.speed+=5
     
-  def brake(self,speed):
+  def brake(self):
     self.speed-=5
 
 car_data=Car("McLaren F1 LM","1996",0) 
@@ -47,9 +47,9 @@ car_data=Car("McLaren F1 LM","1996",0)
 def main():
   for x in range(5):
     car_data.accelerate()
-    print('Current speed is: ',speed.get_speed(),'mph')
+    print('Current speed is: ',car_data.get_speed(),'mph')
   for x in range(5):
-    speed.brake()
-    print('Current speed is: ',speed.get_speed(),'mph')
+    car_data.brake()
+    print('Current speed is: ',car_data.get_speed(),'mph')
 
 main()
