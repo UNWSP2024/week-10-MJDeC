@@ -26,4 +26,4 @@ employees.append(employee2)
 employees.append(employee3)
 
 for employee in employees:
-    print(employees.name, employees.id_number, employees.department, employees.job_title)
+    print(employee.name, employee.id_number, employee.department, employee.job_title)
