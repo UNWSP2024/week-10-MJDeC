@@ -42,12 +42,11 @@ class Car:
   def brake(self,speed):
     speed=int(speed)-5
 
-  car_data=Car("McLaren F1 LM","1996",0) 
-
+car_data=Car("McLaren F1 LM","1996",0) 
 
 def main():
   for x in range(5):
-    speed.accelerate(speed)
+    car_data.accelerate(speed)
     print('Current speed is: ', speed.get_speed(),'mph')
   for x in range(5):
     speed.brake()
