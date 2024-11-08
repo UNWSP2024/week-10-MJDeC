@@ -17,7 +17,7 @@ class Car:
     self.__make=make
     self.__year_model=year_model
     self.__speed=speed
-    
+
   def set_make(self,make):
     self.__make=make
   
@@ -36,22 +36,21 @@ class Car:
   def get_speed(self):
     return self.speed
    
-  def accelerate():
-    speed=speed+5
+  def accelerate(self,speed):
+    speed=int(speed)+5
     
-  def brake():
-    brake=brake-5
+  def brake(self,speed):
+    speed=int(speed)-5
 
-car_data=Car("McLaren F1 LM","1996",0) 
+  car_data=Car("McLaren F1 LM","1996",0) 
 
-accel=Car(self,make,year_model,speed)
-accel1=accel.accelerate()
-print(accel1)
-accel2=accel.accelerate()
-print(accel2)
-accel3=accel.accelerate()
-print(accel3)
-accel4=accel.accelerate()
-print(accel4)
-accel5=accel.accelerate()
-print(accel5)
+
+def main():
+  for x in range(5):
+    speed.accelerate(speed)
+    print('Current speed is: ', speed.get_speed(),'mph')
+  for x in range(5):
+    speed.brake()
+    print('Current speed is: ', speed.get_speed(),'mph')
+
+main()
