@@ -16,7 +16,7 @@ class Car:
   def __init__(self, make, year_model, speed):
     self.__make=make
     self.__year_model=year_model
-    self.__speed=speed
+    self.speed=speed
 
   def set_make(self,make):
     self.__make=make
@@ -46,7 +46,7 @@ car_data=Car("McLaren F1 LM","1996",0)
 
 def main():
   for x in range(5):
-    car_data.accelerate(speed)
+    car_data.accelerate()
     print('Current speed is: ',speed.get_speed(),'mph')
   for x in range(5):
     speed.brake()
