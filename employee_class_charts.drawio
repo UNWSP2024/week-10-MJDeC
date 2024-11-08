@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="CGPjBw4rDiMeZisXZ8Jv">
+    <mxGraphModel dx="572" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H_jRrNKF944DGiFgvwcW-2" value="Create class" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H_jRrNKF944DGiFgvwcW-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579.5" y="-710" as="sourcePoint" />
+            <mxPoint x="579.5" y="-660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="579.5" y="-680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H_jRrNKF944DGiFgvwcW-4" value="define attributes within class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H_jRrNKF944DGiFgvwcW-6" value="Create &quot;employee&quot; data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H_jRrNKF944DGiFgvwcW-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="H_jRrNKF944DGiFgvwcW-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="-730" as="sourcePoint" />
+            <mxPoint x="350" y="-650" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H_jRrNKF944DGiFgvwcW-8" value="store &quot;employee&quot; data&lt;div&gt;in objects&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H_jRrNKF944DGiFgvwcW-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="H_jRrNKF944DGiFgvwcW-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="-480" as="sourcePoint" />
+            <mxPoint x="350" y="-530" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H_jRrNKF944DGiFgvwcW-10" value="print objects" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-530" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
